@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.zhichaoxi.nmgic.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "nmgic.refmap.json",
+  "mixins": [
+    "BasicCellInventoryMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
